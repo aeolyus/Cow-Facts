@@ -1,14 +1,34 @@
 'use strict';
 var Alexa = require('alexa-sdk');
 
-var APP_ID = "amzn1.ask.skill.b4566e63-7745-4a8f-a742-0e005dc4b67b"; //OPTIONAL: replace with "amzn1.echo-sdk-ams.app.[your-unique-value-here]";
+var APP_ID = "amzn1.ask.skill.cb5d707b-1fe6-46e7-b9f6-41635ba870f1"; //OPTIONAL: replace with "amzn1.echo-sdk-ams.app.[your-unique-value-here]";
 var SKILL_NAME = 'Cow Facts';
 
 /**
  * Array containing cow facts.
  */
 var FACTS = [
-    "asdf",
+    "Cows are red-green colorblind",
+    "A cow’s heart beats between 60 and 70 beats per minute",
+    "Cows can hear lower and higher frequencies better than humans",
+    "An average dairy cow weighs about 1,200 pounds",
+    "A cows normal body temperature is 101.5°",
+    "The average cow chews at least 50 times per minute",
+    "The typical cow stands up and sits down about 14 times a day",
+    "Cows actually do not bite grass; instead they curl their tongue around it",
+    "Cows have almost total 360-degree panoramic vision",
+    "Cows have a single stomach, but four different digestive compartments",
+    "A dairy cow can produce 125 pounds of saliva a day",
+    "Cows spend 8 hours per day eating, 8 hours chewing her cud (regurgitated, partially digested food), and 8 hours sleeping",
+    "You can lead a cow upstairs, but not downstairs. Cows knees can’t bend properly to walk downstairs",
+    "Cows can’t vomit",
+    "Cows only have teeth on the bottom",
+    "Cows can smell something up to 6 miles away",
+    "One dairy cow creates 4 full time jobs in the local community",
+    "The average cow will eat about 100 pounds of feed per day",
+    "There are more than 800 different breeds of cattle around the world",
+    "Cows can have regional accents",
+    "All cows are female; males are called bulls"
 ];
 
 exports.handler = function(event, context, callback) {
